@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #read -p "Enter user name : " user
-user_pass=password
+#user_pass=password
 
 read -s -p "Enter user password : " password
 
@@ -10,7 +10,7 @@ do
 echo $user
 adduser $user
 
-echo "$user:$user_pass" | chpasswd
+echo "$user:$password" | chpasswd
 
 mkdir /home/$user
 cp -a /etc/skel/.bash* /home/$user/
