@@ -14,7 +14,7 @@ git clone https://github.com/<username>/<repo>.git
 ###Below directory will be downloaded after Git clone :
 ```
 cd scripts/
-touch test 
+vim test 
 ```
 ###Make following changes under .git/config:
 ####Replace `<username>` with your github username
