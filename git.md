@@ -20,6 +20,8 @@ vim test
 ####Replace `<username>` with your github username
 ```
 vim .git/config
+```
+```
 [core]
         repositoryformatversion = 0
         filemode = true
