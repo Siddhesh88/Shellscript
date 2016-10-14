@@ -28,14 +28,16 @@ vim .git/config
         logallrefupdates = true
 [remote "origin"]
         fetch = +refs/heads/*:refs/remotes/origin/*
-        url = https://`<username>`@github.com/`<username>`/`<repo>`.git
+        url = https://<username>@github.com/<username>/<repo>.git
 [branch "master"]
         remote = origin
         merge = refs/heads/master
 ```
 ####Save file and exit
 ###Create your script
-
+```
+vim script.sh
+```
 ####Add Your file (* will add all content)		
 ```
 git add *
