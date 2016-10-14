@@ -16,10 +16,10 @@ git clone https://github.com/<username>/<repo>.git
 cd scripts/
 ```
 ###Make following changes under .git/config:
-####Replace `<username>` with your github username
 ```
 vim .git/config
 ```
+####Replace `<username>` with your github username
 ```
 [core]
         repositoryformatversion = 0
